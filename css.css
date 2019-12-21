@@ -144,7 +144,6 @@ ul .li{
 .box{
 	width: 600px;
 	height: 383px;
-	border: 1px solid black;
 	margin-left: 150px ;
 	position: relative;
 	overflow: hidden;
@@ -194,13 +193,13 @@ ul .li{
 	font-family: cursive;
 }
 textarea {
-          width:320px;
-          height:180px;
-          font-size:16px;
-          margin-top:150px;
-          margin-left:100px;
-          background-color:#d33a32;
-      }
+    width:320px;
+    height:180px;
+    font-size:16px;
+    margin-top:150px;
+    margin-left:100px;
+    background-color:#d33a32;
+}
 span:hover {
     cursor:pointer;
 }
@@ -238,7 +237,7 @@ span:hover {
     font-family:cursive;
 }
 .four span .p{
-font-size: 50px;
+	font-size: 50px;
     font-family:cursive;
 
 }
@@ -262,10 +261,9 @@ font-size: 50px;
 }
 /*微博链接部分*/
 .container{
-		border:3px solid pink; 
-		height:500px;
-		margin-left:95px;
-		/* margin-top: 100px; */
+	height:500px;
+	margin-left:95px;
+	/* margin-top: 100px; */
 }
 a{ 
 	text-decoration:none;
@@ -289,25 +287,18 @@ a:hover{
 a:active{
 	color:black;
 }
-
-
 li{
 	margin-top: 5px;
 	margin-left: -300px;
 	font-size:15px;
 	list-style: none;
 }
-
 #left1{
 	height:200px;
 	width:200px;
 	margin-left: 300px;
-	margin-top: 30px;
-	border:1px solid pink;
-	
+	margin-top: 30px;	
 }
-
-
 #right1{
 	height:200px;
 	width:200px;
@@ -325,7 +316,6 @@ li{
 	
 }
 #two{
-	
 	margin-left:50px;
 	margin-top:-20px 
 }
@@ -346,6 +336,5 @@ li{
 	font-size:20px; 
 }
 #lowf{
-	border:1px solid black;
 	height: 250px;
 }
