@@ -28,15 +28,15 @@ var btn4=document.getElementById("btn4");
 var i1 = document.getElementById("i1");
 var s1 = document.getElementById("s1");
 var m1 = document.getElementById("m1");
-    var setInterval =setInterval(function(){
-        var date = new Date();
-        var minute = date.getMinutes();
-        var second = date.getSeconds();
-        var miSecond = date.getMilliseconds();
-        i1.innerHTML = minute;
-        s1.innerHTML = second;
-        m1.innerHTML = miSecond;
-    },1000);
+var setInterval =setInterval(function(){
+    var date = new Date();
+    var minute = date.getMinutes();
+    var second = date.getSeconds();
+    var miSecond = date.getMilliseconds();
+    i1.innerHTML = minute;
+    s1.innerHTML = second;
+    m1.innerHTML = miSecond;
+},1000);
 //轮播方法
 borde.appendChild(ul);
 	function next(){
@@ -94,6 +94,7 @@ borde.appendChild(ul);
                 }
             }
         };
+
 //第二部分方法
 for (var i = 0; i < menuData.length; i++) {
 	menuData[i].onclick=function(){
