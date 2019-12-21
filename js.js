@@ -11,6 +11,7 @@ var msg = document.getElementById("msg");
 var n = 0;
 var index=1;
 var timer;
+var setInterval;
 //第二部分变量定义
 var menuData = document.getElementsByClassName('menuData');
 var detailList=document.getElementsByClassName("detail");
@@ -28,7 +29,7 @@ var btn4=document.getElementById("btn4");
 var i1 = document.getElementById("i1");
 var s1 = document.getElementById("s1");
 var m1 = document.getElementById("m1");
-var setInterval =setInterval(function(){
+setInterval(function(){
     var date = new Date();
     var minute = date.getMinutes();
     var second = date.getSeconds();
