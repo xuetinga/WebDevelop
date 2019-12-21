@@ -147,7 +147,7 @@ body{
 			height: 480px;
 			width: 100%;
 			margin : auto;
-			border-bottom: 1px solid;
+			border-bottom: 1px dotted ;
 		}
 		#say{/*这是粉丝评价截图：可以改颜色*/
 			width: 250px;
@@ -204,7 +204,6 @@ body{
 			height: 200px;
 			margin-top: -400px;
 			margin-left: 850px;
-			/* margin-right:140px ; */
 			color: black;/*这是评论：可以改颜色*/
 		}
 		textarea {
@@ -229,9 +228,7 @@ body{
 		
 		/*第三部分到这里结束*/
 		a{ text-decoration:none;
-		/*color:#3e41b7;*/
 		color:black;
-		/* font-style: italic; */
 		} 
 		a:link{
 			margin-left: 301px;
@@ -256,7 +253,6 @@ body{
 			width:200px;
 			margin-left: 270px;
 			margin-top: 33px;
-			/* border:1px solid pink; */
 			
 		}
 		.li{
@@ -305,12 +301,9 @@ body{
 		}
 
 		#lowf{
-			/* border:1px solid black; */
 			height: 250px;
 		}
 		.container{
-		/* border:1px solid ; */
 		height:200px;
 		margin-left:95px;
-		/* margin-top: 100px; */
 }

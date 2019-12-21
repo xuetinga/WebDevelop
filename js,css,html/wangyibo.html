@@ -4,12 +4,11 @@
 	<title>王甜甜的世界</title>
 	<link rel="stylesheet" href="wangyibo.css" />
 	<script src="animate.js"></script>
-	<!-- <script src="./nav.js"></script> -->
 </head>
 <body>
 	<div>
 		<div><img src="../images/img-3447644f8a72fe83f594f8e464b11d29_WPS图片.jpg" id="Onebanner"></div>
-		<div id="show">你来了！！！<br/><br/> &nbsp;&nbsp;&nbsp;&nbsp;等你好久了（‐＾▽＾‐）</div>
+		<div id="show">你来了！！！<br/><br/> &nbsp;&nbsp;&nbsp;&nbsp;等你好久了（‐＾▽＾‐）<br/><br/><br/><br/><p style="font-size:0.65em;color:purple;" id="date1">喜欢王一博:<br/>自：2019年6月23日<br/><p style="font-size:0.65em;color:purple;" id="date2">至：2019/12/21 下午6:12:23</p></p></div>
 	</div>
 
 	<!-- 第二部分 -->
@@ -104,7 +103,6 @@
 	<!-- 第三部分 -->
 	<!-- 第四部分 -->
 	<div class="container">
-			<!-- <div class="top"><p>微博链接</p></div> -->
 			<div id="lowf"><!-- //超链接url可以改 -->
 				<div id="wburl"><a href="https://weibo.com/u/5492443184">微博哦，戳我戳我！！！๑乛◡乛๑</a></div>
 				<div id="left1">
@@ -128,9 +126,17 @@
 			</div>
 		</div>	
 	<!-- 第四部分 -->
-
 </body>
-<script> 
+<script>
+	// 
+	var date2=document.getElementById("date2");
+	setInterval(function(){
+	var now=new Date(); 
+	var time="至："+now.toLocaleString();
+	date2.innerHTML=time;
+	},1000);
+
+	// 
 	var box=document.getElementById("box");
 	var slider=document.getElementById("slider");
 	var left=document.getElementById("left");
