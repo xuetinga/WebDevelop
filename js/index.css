@@ -1,0 +1,438 @@
+*{
+	padding: 0;
+	margin:0;
+}
+a{
+	text-decoration:none;	
+		
+} 
+body{
+	/*height:2180px;*/
+	background-color: #af3331;
+}
+.container{
+	border:2px solid black;
+	height:900px;
+}
+#fourcontainer{
+	height:315px;
+	background-color: black;
+}
+#daohang{
+	height:50px;	
+	border:2px ;
+	
+}
+#Bimg{
+	height: 500px;
+	border:2px solid black;
+	margin:0 auto;
+
+}
+#Bimg1{
+	height: 495px;	
+	margin-left: 400px;
+	
+}
+
+#fourcontainer a{
+	font-size: 30px;
+	color: #af3331;
+	margin-left: 450px;
+	/*padding-top: 30px;
+	padding-bottom: 30px;*/
+}
+#fourcontainer p{
+	color:#af3331;
+	margin-left: 50px;
+}
+#searchp{
+	margin-left: 300px;
+	font-size: 5px;
+	color:#af3331;
+}
+#inputcontainer{
+	border:1px solid black;
+	height:35px;
+	width:300px;	
+	margin:0 auto;
+}
+#searchinputdiv{
+	background-color: #af3331;
+	height:35px;
+	width:240px;
+	/*padding-top: 1px;*/
+	border-radius: 20%;
+}
+#input{
+	background-color: #af3331;
+	height:35px;
+	width:240px;	
+	border-radius: 20%;
+}
+#buttondiv{
+	border: 1px solid black;
+	height:30px;
+	width:30px;
+	border-radius: 20%;
+	margin-left: 250px;
+	margin-top: -32px;
+}
+#searchbutton img{
+	height:30px;
+	width:30px;
+	border-radius: 20%;	
+}
+#searchbutton{
+	height:30px;
+	width:30px;
+	border-radius: 20%;
+}
+#bottomdiv{
+	height:150px;
+	width:1300px;
+	border:1px solid black;
+	margin:0 auto;
+	margin-top:15px; 
+}
+#biaoqian{
+	border:1px solid black;
+	margin-left: 100px;
+	margin-top: 10px;
+	height:130px;
+	width:200px;
+}
+.circle p{
+	
+	color:#af3331;
+	font-size: 7px;
+}
+#resou{
+	border:1px solid black;
+	margin-left: 500px;
+	margin-top: -140px;
+	height:130px;
+	width:350px;
+}
+#little{
+	color:#ccc;
+	font-size: 2px;
+	margin-left:100px; 
+}
+.answer{
+	border:1px solid black;
+	width:60px;
+	height:20px;
+	color:#af3331;
+	font-size:5px;
+	/*margin:0 auto;*/
+	margin-top: -17px;
+	margin-left: 100px;
+	display: none;
+}
+#noanswer{
+	color:#585252;
+	font-size:2px;
+	border:1px solid black;
+	width:400px;
+	height:10px;
+	display: none;
+	margin-top: -5px;
+}
+
+#make{
+	border:1px solid black;
+	width:300px;
+	height:130px;
+	margin-top: -130px;
+	margin-left: 950px;
+}
+#makediv{
+	border:5px solid #af3331;
+	height:50px;
+	width:50px;
+	margin-top: 30px;
+	margin:0 auto;
+	border-radius: 20%;	
+}
+#makebutton{
+	background-color: #af3331;
+	height:45px;
+	width:45px;
+	/*margin:0 auto;*/
+	margin-left: 1px;
+	border-radius: 20%;	
+	font-size:0.3em;
+}
+#make p{
+	margin-left: -20px;	
+	color: #af3331;
+	font-size:10px;
+}
+#makexiaozhan {
+	color:#af3331;
+	font-size:2.5em;
+	margin-left: 110px;
+	display: none;
+}
+#bottomdiv1{
+	border:1px solid #655253;
+	height:20px;
+	margin-bottom: 0;
+	margin-top: 13px;
+}
+
+#bottom302 p{
+	/*margin-top:*/
+	color:#655253;
+	font-size:0.3em;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#third{
+			height: 480px;
+			width: 1200px;
+			margin : auto;			
+}
+#say{
+			width: 200px;
+			margin-left: 80px;
+			margin-bottom: 15px;
+			margin-top: 15px;
+			font-size: 0.9em;
+			color: black;
+}
+.box{
+			width: 600px;
+			height: 383px;
+			border: 1px solid #aaa;
+			margin-left: 100px ;
+			position: relative;
+			overflow: hidden;
+}
+.slider{
+			width: 4200px;
+			position: absolute;
+			left: -600px;
+}
+.slide{
+			width: 600px;
+			overflow: hidden;
+			float: left;
+}
+.slide>img{
+			height: 383px;
+			width: 600px;
+}
+.box>span{
+			display: block;
+			width: 30px;
+			height: 50px;
+			text-align: center;
+			cursor:pointer ;
+			color: ;
+			top: 195px;
+			line-height: 50px;
+			background: red;
+			font-size: 30px;
+			position: absolute;
+			opacity: 0;
+}
+#zuo{
+			left: 30px;
+}
+#you{
+			right: 30px;
+}
+#write{
+			width: 20px;
+			height: 200px;
+			margin-top: -400px;
+			margin-left: 750px;
+			color: black;
+}
+textarea {
+    width:320px;
+    height:180px;
+    font-size:16px;
+    margin-top:150px;
+    margin-left: 20px;
+    background-color:#bbb;
+}
+span:hover {
+    cursor:pointer;
+}
+#word{
+	height: 400px;
+	margin-top: -200px;
+	margin-left: 800px;
+}
+#btn{
+	background-color: #bbb;
+}
+a:link{
+	margin-left: 301px;
+	margin-top: 31px;
+}
+a:visited{
+
+}
+a:hover{
+	color:#110b60;
+	margin-left: 305px;
+	margin-top: 33px;
+	text-decoration: underline;
+}
+a:active{
+	color:black;
+}
+
+
+
+
+
+
+
+
+		
+		
+		.bigPicture{
+			
+			height: 800px;
+			background-image: url(images/wu1.jpg);
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+		.second{
+			width: 1200px;
+			height:870px;
+			/*background-color: #98afed;*/
+			border: 1px solid  #af3331;
+			padding-top: 20px;
+			margin:0 auto;
+			overflow: hidden;
+
+		}
+		.secondBanner{
+			width: 1200px;
+			height: 100px;
+
+			/*border:4px solid purple;*/
+		}
+		.menuData{
+			
+			width: 295px;
+		    height: 80px;
+		    /* margin-left: 120px; */
+		    border: 0;
+		    text-align: center;
+		    line-height: 80px;
+		    /* border-right: 1px solid #383b55; */
+		    display: inline-block;
+		    background-color: yellow;
+		}
+
+		.menuData li{
+			font-size: 25px;
+			font-family: "宋体";
+			line-height: 30px;
+			font-weight: 500;
+			border-left: 1px solid blue;
+			padding: 10px 10px;
+		}
+		.seconeUnderBanner{
+			width: 1200px;
+			height:400px;
+			/*height:自己定 */
+			display: block;
+
+		}
+		#detail0{
+			width: 1200px;
+			height:500px;/*height根据内容决定，现在height的高度是显示第几部分的彩条框*/
+			background-color: #76b2d8;
+			display: block;
+		}
+		#detail1{
+			width: 1200px;
+			height:500px;/*height根据内容决定，现在height的高度是显示第几部分的彩条框*/
+			background-color: pink;
+			display: none;
+		}
+		#detail2{
+			width: 1200px;
+			height:500px;/*height根据内容决定，现在height的高度是显示第几部分的彩条框*/
+			background-color:white;
+			display: none;
+		}
+		#detail3{
+			width: 1200px;
+			/*height根据内容决定*/
+			background-color: orange;
+			display: none;
+		}
+		#detail4{
+			width: 1200px;
+			/*height根据内容决定*/
+			background-color: grey;
+			display: none;
+		}
+		#detail5{
+			width: 1200px;
+			/*height根据内容决定*/
+			background-color: grey;
+			display: none;
+		}
+		.detailImg{
+			text-align: center; 
+			width: 1000px;
+			height: 670px;
+			float: left;
+		}
+		.btn{
+			width: 80px;
+			height:30px;
+			text-align:center;
+			line-height: 30px; 
+			background-color: yellow;
+			margin-right: 10px;
+			float: right;
+		}
+
+		.secondBannerImg{
+			width: 360px;
+			float: left;
+			margin-left: 25px;
+			margin-top: 15px;
+
+		}
+		.secondBannerImg img{
+			width:360px;
+			height: 360px;
+			border-radius: 10%;
+		}
+
+
