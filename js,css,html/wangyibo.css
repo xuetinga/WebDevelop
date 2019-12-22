@@ -1,0 +1,309 @@
+body{
+		background:#aaa;
+	}
+		*{
+			padding: 0;
+			margin: 0;
+		 }
+		 #show{
+		 	margin-left: 950px;
+		 	width: 600px;
+		 	height: 300px;
+		 	float: top;
+		 	margin-top: -300px;
+		 	font-size:1.4em ;
+		 	/* border: 1px solid; */
+		 }
+		 #Onebanner{
+		 	width: 50%;
+		 	margin-left:160px;
+		 	height: 430px;
+		 	/* margin-top: 30px; */
+		 	margin-bottom: 30px;
+			/* border: 1px solid; */
+		 }
+		.second{
+			margin-top: 200px;
+			width: 1200px;
+			height:700px;
+			background-color:#bbb;
+			/* border: 1px solid black; */
+			padding-top: 20px;
+			margin:0 auto;
+			overflow: hidden;
+
+		}
+		.secondBanner{
+			width: 1200px;
+			height: 100px;
+			/*border:2px solid purple;*/
+		}
+		.menuData{
+			
+			width: 200px;
+		    height: 80px;
+		    /* margin-left: 120px; */
+		    border: 0;
+		    text-align: center;
+		    line-height: 80px;
+		    /* border-right: 1px solid #383b55; */
+		    display: inline-block;
+		    background-color: #ddd;
+		}
+
+		.menuData li{
+			font-size: 25px;
+			font-family: "宋体";
+			line-height: 30px;
+			font-weight: 500;
+			/* border-left: 1px solid blue; */
+			padding: 10px 10px;
+		}
+		.seconeUnderBanner{
+			width: 1200px;
+			height:400px;
+			/*height:自己定 */
+			display: block;
+
+		}
+		#detail0{
+			width: 1200px;
+			height:600px;/*height根据内容决定，现在height的高度是显示第几部分的彩条框*/
+			background-color: #ccc;
+			display: block;
+		}
+		#detail1{
+			width: 1200px;
+			height:600px;/*height根据内容决定，现在height的高度是显示第几部分的彩条框*/
+			background-color: #ccc;
+			display: none;
+		}
+		#detail2{
+			width: 1200px;
+			height:600px;/*height根据内容决定，现在height的高度是显示第几部分的彩条框*/
+			background-color:#ccc;
+			display: none;
+		}
+		#detail3{
+			width: 1200px;
+			/*height根据内容决定*/
+			background-color: orange;
+			display: none;
+		}
+		#detail4{
+			width: 1200px;
+			/*height根据内容决定*/
+			background-color: grey;
+			display: none;
+		}
+		#detail5{
+			width: 1200px;
+			/*height根据内容决定*/
+			background-color: grey;
+			display: none;
+		}
+		.detailImg{
+			text-align: center; 
+			width: 1000px;
+			height: 670px;
+			float: left;
+		}
+		.btn{
+			width: 80px;
+			height:30px;
+			text-align:center;
+			line-height: 30px; 
+			background-color: yellow;
+			margin-right: 10px;
+			float: right;
+		}
+
+
+		.secondBannerImg{
+			width: 360px;
+			float: left;
+			margin-left: 25px;
+			margin-top: 15px;
+
+		}
+		.secondBannerImg img{
+			width:300px;
+			height: 250px;
+			border-radius: 10%;
+		}
+		.detail{
+			margin-top: 25px;
+		}
+
+
+
+
+		/*第三部分从这里开始*/
+		ul,li{
+			list-style: none;
+			margin-left: 60px;
+		}
+		#third{
+			height: 480px;
+			width: 100%;
+			margin : auto;
+			border-bottom: 1px dotted ;
+		}
+		#say{/*这是粉丝评价截图：可以改颜色*/
+			width: 250px;
+			margin-left: 150px;
+			margin-bottom: 15px;
+			margin-top: 15px;
+			font-size: 0.9em;
+			color: black;
+		}
+		.box{
+			width: 600px;
+			height: 383px;
+			border: 1px solid #aaa;
+			margin-left: 150px ;
+			position: relative;
+			overflow: hidden;
+		}
+		.slider{
+			width: 4200px;
+			position: absolute;
+			left: -600px;
+		}
+		.slide{
+			width: 600px;
+			overflow: hidden;
+			float: left;
+		}
+		.slide>img{
+			height: 383px;
+			width: 600px;
+		}
+		.box>span{
+			display: block;
+			width: 30px;
+			height: 50px;
+			text-align: center;
+			cursor:pointer ;
+			color: ;
+			top: 195px;
+			line-height: 50px;
+			background: #aaa;/*轮播图按钮颜色，可修改*/
+			font-size: 30px;
+			position: absolute;
+			opacity: 0;
+		}
+		#left{
+			left: 30px;
+		}
+		#right{
+			right: 30px;
+		}
+		#write{
+			width: 20px;
+			height: 200px;
+			margin-top: -400px;
+			margin-left: 850px;
+			color: black;/*这是评论：可以改颜色*/
+		}
+		textarea {
+            width:320px;
+            height:180px;
+            font-size:16px;
+            margin-top:150px;
+            margin-left:100px;
+            background-color:#bbb;
+        }
+        span:hover {
+            cursor:pointer;
+        }
+		#word{
+			height: 400px;
+			margin-top: -200px;
+			margin-left: 800px;
+		}
+		#btn{
+			background-color: #bbb;
+		}
+		
+		/*第三部分到这里结束*/
+		a{ text-decoration:none;
+		color:black;
+		} 
+		a:link{
+			margin-left: 301px;
+			margin-top: 31px;
+		}
+		a:visited{
+
+		}
+		a:hover{
+			color:#110b60;
+			margin-left: 305px;
+			margin-top: 33px;
+			text-decoration: underline;
+		}
+		a:active{
+			color:black;
+		}
+
+
+		#left1{
+			height:200px;
+			width:200px;
+			margin-left: 270px;
+			margin-top: 33px;
+			
+		}
+		.li{
+			margin-top: 5px;
+			margin-left: -300px;
+			font-size:15px;
+			list-style: none;
+		}
+
+
+		#right1{
+			height:200px;
+			width:200px;
+			margin-top: -200px;
+			margin-left:800px;
+		}
+		.di{   /* //小方块颜色可以改 */
+			height:20px;
+			background-color:brown ;
+			filter:alpha(opacity=40);
+			width:40px;
+			margin-top: 10px;
+		}
+		#two{
+			
+			margin-left:50px;
+			margin-top:-20px 
+		}
+			#three{
+			width: 80px;
+		}
+		#four{
+			width:70px;
+			margin-top: -20px;
+			margin-left: 100px;
+		}
+
+		#five{
+			width:60px;
+		}
+		#wburl{
+
+			margin-left:150px;
+			margin-top:30px;
+			font-size:20px; 
+		}
+
+		#lowf{
+			height: 250px;
+		}
+		.container{
+		height:200px;
+		margin-left:95px;
+}
