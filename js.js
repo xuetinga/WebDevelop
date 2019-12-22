@@ -196,3 +196,47 @@ function animate(obj,json,callback){
 		}
 	}, 30)
 } 
+//超链接部分的js
+var circleList=document.getElementsByClassName("circle");
+var answeList=document.getElementsByClassName("answer");
+var circle1List=document.getElementsByClassName("circle1");
+var noanswer=document.getElementById("noanswer");
+var makexiaozhan=document.getElementById("makexiaozhan");
+var makep=document.getElementById("makep");
+var makebutton=document.getElementById("makebutton");
+var temp=0;
+	
+for(var j=0;j<circle1List.length;j++){
+	temp=j;
+	circle1List[j].onmouseover=function(){
+		this.style.color="#fc35bf";
+	}
+	circle1List[j].onmouseout=function(){
+			this.style.color="#e394bc";
+	}
+}
+for(var i=0;i<circle1List.length;i++){
+	
+	circle1List[i].onclick=function(){
+		var title=parseInt(this.getAttribute("title"));
+		answeList[title].style.display="block";
+		
+	}
+}
+makebutton.onclick=function(){
+	makexiaozhan.style.display="block";
+	alert("(ㄏ￣▽￣)ㄏ别想了兄di，怎么可能不是战哥呢ㄟ(￣▽￣ㄟ)");
+}
+//对文字的效果
+
+function changeColor(){ 
+	var color="#f00|#0ff|#00f|yellow|green|blue|gray|#234|#534|white|orange|red|pink";//定义一条变换颜色的字符串
+	var fontSize=[50,100];
+	var index =parseInt(Math.random() * color.length);
+	color=color.split("|"); //然后通过split方法进行分割
+ 	var singer = document.getElementById("singer");
+ 	var actor = document.getElementById("actor");
+ 	actor.style.fontSize=fontSize[parseInt(Math.random() * 2)]+"px";
+	singer.style.color=color[index];//设置样式 
+}
+setInterval("changeColor()",200);//死循环，每0.2秒变换一种颜色
