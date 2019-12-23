@@ -188,7 +188,15 @@ body{
 	font-size:0.3em;	
 }
 
-
+#btn{
+	background-color: black;
+	color:#af3331;
+	border-radius: 20%;	
+}
+#msg{
+	background-color:#cb817f; 
+	border-radius: 5%;	
+}
 
 
 
@@ -228,7 +236,7 @@ body{
 .box{
 			width: 600px;
 			height: 383px;
-			border: 1px solid #aaa;
+			border: 2px solid black;
 			margin-left: 100px ;
 			position: relative;
 			overflow: hidden;
@@ -237,11 +245,13 @@ body{
 			width: 4200px;
 			position: absolute;
 			left: -600px;
+			border-radius: 10%;
 }
 .slide{
 			width: 600px;
 			overflow: hidden;
 			float: left;
+			border-radius: 10%;
 }
 .slide>img{
 			height: 383px;
