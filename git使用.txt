@@ -1,2 +1,0 @@
-1.将本地上传到git  右击gitgui 然后rescan五步
-2.将git下载到本地 先remote fetch 在merge就OK啦
